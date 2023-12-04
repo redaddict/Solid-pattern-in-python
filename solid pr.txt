@@ -1,0 +1,27 @@
+The SOLID principles are a set of five design principles that, when followed, can help you create more maintainable, scalable, and robust software. These principles were introduced by Robert C. Martin and are widely used in object-oriented programming. Here's a brief overview of each principle:
+
+1. **Single Responsibility Principle (SRP):**
+   - A class should have only one reason to change.
+   - It should have only one responsibility or job.
+   - This principle promotes a clear and modular design.
+
+2. **Open/Closed Principle (OCP):**
+   - Software entities (classes, modules, functions) should be open for extension but closed for modification.
+   - You can add new functionality without changing existing code.
+   - This is often achieved through the use of abstraction and polymorphism.
+
+3. **Liskov Substitution Principle (LSP):**
+   - Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+   - Subtypes must be substitutable for their base types without altering the correctness of the program.
+
+4. **Interface Segregation Principle (ISP):**
+   - A class should not be forced to implement interfaces it does not use.
+   - Clients should not be forced to depend on interfaces they do not use.
+   - This principle encourages the creation of specific, client-focused interfaces.
+
+5. **Dependency Inversion Principle (DIP):**
+   - High-level modules should not depend on low-level modules. Both should depend on abstractions.
+   - Abstractions should not depend on details; details should depend on abstractions.
+   - This principle promotes the use of dependency injection and inversion of control.
+
+These principles provide guidelines for designing software that is modular, flexible, and easy to maintain. While they are often associated with object-oriented programming, the concepts behind SOLID can be applied in various programming paradigms, including functional programming and procedural programming. Applying SOLID principles can lead to code that is easier to understand, extend, and maintain over time.
